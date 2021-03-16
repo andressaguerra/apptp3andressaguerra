@@ -8,11 +8,12 @@
 <title>App TP3 Andressa Guerra</title>
 </head>
 <body>
+	<div class="jumbotron text-center">
+	  <h1>${nome}</h1>
+	  <p>${email}</p>
+	</div>
 	<div class="container">
-		<h3>${nome}</h3>
-		<h4>${email}</h4>
-		<h4><a href="${git}">GIT</a></h4>
-		
+		<p><a href="${git}" target="_blank">Projeto TP3 de Desenvolvimento Web com Java EE (Github)</a></p>
 		<form action="/usuario" method="get">
 			<button type="submit" class="btn btn-default">Novo usuário</button>
 		</form>

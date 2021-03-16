@@ -21,7 +21,7 @@ public class UsuarioController {
 				
 		model.addAttribute("nome", "Andressa Guerra");
 		model.addAttribute("email", "andressa.guerra@al.infnet.edu.br");
-		model.addAttribute("git", "https://github.com/andressaguerra");
+		model.addAttribute("git", "https://github.com/andressaguerra/apptp3andressaguerra");
 		
 		return "index";
 	}
